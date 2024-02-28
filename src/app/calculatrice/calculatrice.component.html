@@ -1,0 +1,12 @@
+<div>
+    <button (click)="numberOne = randomNumbers()">Nombre 1</button>
+    <button (click)="numberTwo = randomNumbers()">Nombre 2</button>
+    <p>Nombre 1 : {{ numberOne }}</p>
+    <p>Nombre 2 : {{ numberTwo }}</p>
+    <p> Choisi ton operateur :</p>
+    <button (click)="calculate('+')">+</button>
+    <button (click)="calculate('-')">-</button>
+    <button (click)="calculate('*')">*</button>
+    <button (click)="calculate('/')">/</button>
+    <p>Résultat: {{ result }}</p>
+  </div>
